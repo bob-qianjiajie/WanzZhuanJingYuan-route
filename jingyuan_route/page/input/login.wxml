@@ -1,0 +1,34 @@
+<!--login.wxml-->
+<view class="container">
+  <block>
+    <image class="title" src="/images/more/title.png"></image>
+    <view class="content">
+      <view class="hd" style="transform:rotateZ({{angle}}deg);">
+          <image class="logo" src="/images/more/logo.png"></image>
+          <image class="wave" src="/images/more/wave.png" mode="aspectFill"></image>
+          <image class="wave wave-bg" src="/images/more/wave.png" mode="aspectFill"></image>
+      </view>
+      
+      <view class="bd">
+      
+        <form bindsubmit="formSubmit">
+          <view class="input-group">
+            <text class="input-label">姓名</text>
+            <input cursor-spacing="30" name="name" maxlength="8" placeholder="例：黄大龙" />
+          </view>
+          <view class="input-group">
+            <text class="input-label">学号</text>
+            <input cursor-spacing="30" name="id" placeholder="例：60221701" />
+          </view>
+          <view class="input-group">
+            <text class="input-label">手机</text>
+            <input type="number" cursor-spacing="30" name="tel" placeholder="例：17764547544" />
+          </view>
+          <button formType="submit">确认提交</button>
+        </form>
+         
+      </view>
+      
+    </view>
+  </block>
+</view>

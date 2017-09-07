@@ -1,0 +1,42 @@
+{
+  "debug": true, 
+  "window": {
+    "navigationBarTextStyle": "white", 
+    "navigationBarBackgroundColor": "#fff", 
+    "navigationBarTitleText": "", 
+    "backgroundColor": "#ffffff", 
+    "enablePullDownRefresh": true, 
+    "backgroundTextStyle": "dark"
+  }, 
+  "pages": [
+    
+    "page/index/index",
+    "page/input/login"
+  ], 
+  "tabBar": {
+    "color": "#7F8389", 
+    "selectedColor": "#09BB07", 
+    "borderStyle": "black", 
+    "list": [
+      {
+        "selectedIconPath": "resources/cbb696e166eef1c25cee1a2497da7828.png", 
+        "pagePath": "page/index/index", 
+        "iconPath": "resources/9395f1aff0450968c55193483f1a8558.png", 
+        "text": "主页"
+      }, 
+      {
+        "text": "购买", 
+        "pagePath": "page/input/login", 
+        "iconPath": "resources/9395f1aff0450968c55193483f1a8558.png", 
+        "selectedIconPath": "resources/cbb696e166eef1c25cee1a2497da7828.png"
+      }
+    ], 
+    "backgroundColor": "#F7F7FA"
+  }, 
+  "networkTimeout": {
+    "connectSocket": "", 
+    "request": "", 
+    "downloadFile": "", 
+    "uploadFile": ""
+  }
+}
